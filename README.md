@@ -1,8 +1,4 @@
-# New CLOG project
-### _Your Name <your.name@example.com>_
+# CLOG - Code Samples
 
-This is a project to do ... something.
+I am going to be adding interesting code samples here that one day be be added as tutorials or reference materials to CLOG.
 
-## License
-
-Specify license here
