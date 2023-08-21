@@ -6,10 +6,7 @@
   :serial t
   :entry-point "clog-code-samples:start-app"
   :depends-on (#:clog) ; add clog plugins here as #:plugin for run time
-  :components (
-               (:file "clog-code-samples")
-               (:file "01-drag-drop")
-               ))
+  :components ((:file "clog-code-samples")))
 
 (asdf:defsystem #:clog-code-samples/tools
   :defsystem-depends-on (:clog)
