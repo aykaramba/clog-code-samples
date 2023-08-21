@@ -1,6 +1,6 @@
 # CLOG - Code Samples
 
-I am adding interesting code samples here that may not be appropriate as tutorials.
+I am adding interesting code samples here that may not be appropriate as tutorials.  I am using CLOG as a simple blog markup and layout engine here because Common Lisp + CLOG + W3css is so easy to use.  Everything is marked up manually, this is not a real app.  The user interface looks like this:
 
 ### Sample 01 - Drag and Drop
 
