@@ -20,11 +20,17 @@
          (container-title (create-div container-main :content "<b> *** CLOG - Code Samples *** </b>" :class "w3-container w3-center w3-margin-bottom"))
          (container-links (create-div container-main :class "w3-center w3-text-gray"))
          )
-    ;; ------------------
-    ;; content
-    ;; ---
-    (create-div container-links :content "<a href='/01-drag-drop'>01 - Drag and Drop</a>" )
-    (create-div container-links :class "w3-margin-bottom w3-padding" :content "This sample is based on the code from 18-tutorial.lisp example. This example provides 3 target drop areas, multiple draggable objects, allows for dragging between targets and shows how we can use w3css classes to change object properties on drop. " )
+         ;; ------------------
+         ;; content
+         ;; ---
+         (create-div container-links :content "<a href='/00-clog-routes'>00 - Clog Routes</a>" )
+         (create-div container-links :class "w3-margin-bottom w3-padding" :content "This sample is based on the code from 18-tutorial.lisp example. This example provides 3 target drop areas, multiple draggable objects, allows for dragging between targets and shows how we can use w3css classes to change object properties on drop. " )
+    
+         (create-div container-links :content "<a href='/01-drag-drop'>01 - Drag and Drop</a>" )
+         (create-div container-links :class "w3-margin-bottom w3-padding" :content "This sample is based on the code from 18-tutorial.lisp example. This example provides 3 target drop areas, multiple draggable objects, allows for dragging between targets and shows how we can use w3css classes to change object properties on drop. " )
+    
+    
+    
     ))
 
 ;; ------------------
@@ -34,6 +40,11 @@
   (initialize 'on-new-window
               :static-root (merge-pathnames "./www/"
               (asdf:system-source-directory :clog-code-samples)))
+  ;; ------------------
+  ;; add routes here
+  ;; ---
+  (set-on-new-window 'clog-routes :path "/00-clog-routes")
   (set-on-new-window 'drag-drop :path "/01-drag-drop")
+  
   (open-browser))
 

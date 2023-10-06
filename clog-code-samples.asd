@@ -5,9 +5,10 @@
   :version "0.0.0"
   :serial t
   :entry-point "clog-code-samples:start-app"
-  :depends-on (#:clog) ; add clog plugins here as #:plugin for run time
+  :depends-on (#:clog ) ; add clog plugins here as #:plugin for run time
   :components (
                (:file "clog-code-samples")
+               (:file "00-clog-routes")
                (:file "01-drag-drop")
                ))
 
