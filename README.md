@@ -6,7 +6,7 @@ I am also using CLOG as a simple blog markup and layout engine here because Comm
 
 ![screenshot](https://github.com/aykaramba/clog-code-samples/assets/16431651/8c0ed71a-d9eb-4328-9e4b-81417ac9e4c3)
 
-### Sample 0 - Clog Routes
+### Sample 00 - Clog Routes
 
 This is how routes are setup in CLOG.
 
