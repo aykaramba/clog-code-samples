@@ -6,6 +6,10 @@ I am also using CLOG as a simple blog markup and layout engine here because Comm
 
 ![screenshot](https://github.com/aykaramba/clog-code-samples/assets/16431651/8c0ed71a-d9eb-4328-9e4b-81417ac9e4c3)
 
+### Sample 0 - Clog Routes
+
+This is how routes are setup in CLOG.
+
 ### Sample 01 - Drag and Drop
 
 This sample is based on the code from 18-tutorial.lisp example. This example provides 3 target drop areas, multiple draggable objects, allows for dragging between targets and shows how we can use W3css classes to change object properties on drop. 
