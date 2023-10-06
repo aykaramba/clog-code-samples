@@ -4,8 +4,7 @@ I am adding interesting code samples here that may not be appropriate as tutoria
 
 I am also using CLOG as a simple blog markup and layout engine here because Common Lisp + CLOG + W3css is so easy to use.  Everything is marked up manually.  This is not a real app but you can git clone it and load it with **(ql:quickload :clog-code-samples)** to browse the samples in your browser.  The user interface looks like this:
 
-![screenshot](https://github.com/aykaramba/clog-code-samples/assets/16431651/cef7faaa-1586-4676-8aed-e1ac0350da4f)
-
+![screenshot](https://github.com/aykaramba/clog-code-samples/assets/16431651/8c0ed71a-d9eb-4328-9e4b-81417ac9e4c3)
 
 ### Sample 01 - Drag and Drop
 
